@@ -3,7 +3,7 @@ This will serve as a brief description of your project. Limit this to three sent
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |--|--|--|--|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior 
+| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior |
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
   
