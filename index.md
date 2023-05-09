@@ -1,32 +1,49 @@
 # Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were.
+Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitial | School Name | Electrical Engineering | Incoming Senior
-
-![Logo](/branding/BlueStamp Engineering Logo Black.jpg)
+| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
   
 # Final Milestone
-Explain the final outcome of your project here. Describe what you've accomplished since your previous milestone, and what your biggest challenges and triumphs were. Include key topics that you learned about and what you hope to learn about in the future after completing your BSE project. **Don't forget to replace the text below with the embed text for your milestone video by going on Youtube, clicking Share -> Embed, and copying and pasting that code to replace what's below.**
+For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. Highlight previous challenges that were solved, as well as what needs to be completed before your final milestone. Be sure to go into technical detail and explain how what you've worked on will impac the final project outcome. You can also share what has been surprising about working on the project so far. **Don't forget to replace the text below with the embed text for your milestone video by going on Youtube, clicking Share -> Embed, and copying and pasting that code to replace what's below.**
+For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+- Technical details of what you've accomplished and how they contribute to the final goal
+- What has been surprising about the project so far
+- Previous challenges you faced that you overcame
+- What needs to be completed before your final milestone 
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
-For your first milestone, describe what your project is and how you plan to build it. Explain the technical progress you've made so far, as well as challenges you're facing and solving in your future milestones. As your audience is probably less familiar with what your project entails, be sure to explain the different components and how they will all integrate together. **Don't forget to replace the text below with the embed text for your milestone video by going on Youtube, clicking Share -> Embed, and copying and pasting that code to replace what's below.**
+For your first milestone, describe what your project is and how you plan to build it. You can include:
+- An explanation about the different components of your project and how they will all integrate together
+- Technical progress you've made so far
+- Challenges you're facing and solving in your future milestones
+- What your plan is to complete your project
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad]([url](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)) and [Fritzing]([url](https://fritzing.org/learning/)) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
+Here's where you'll put images of your schematics. [Tinkercad]([url](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)) and [Fritzing]([url](https://fritzing.org/learning/)) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your language needs. 
+Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 void setup() {
@@ -43,7 +60,7 @@ void loop() {
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =.  Click Preview (next to Edit on the top of this editor) to check that your links are working properly, and commit your changes and refresh your Github page to enusre it is rendering properly. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your language needs. 
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -55,4 +72,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 
 # Other Resources/Examples
-One of the best part about Github is that you can view other people's work to see how they did things. 
+One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+- [Example 1]([url](https://sviatil0.github.io/Sviatoslav_BSE/))
+- [Example 2]([url](https://trashytuber.github.io/YimingJiaBlueStamp/ ))
+- [Example 3]([url](https://trashytuber.github.io/YimingJiaBlueStamp/ ))
+
+To watch the BSE tutorial on how to create a portfolio, click here.
+
+
