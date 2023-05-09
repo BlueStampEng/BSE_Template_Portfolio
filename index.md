@@ -4,6 +4,8 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | FirstName LastInitial | School Name | Electrical Engineering | Incoming Senior
+
+![Logo](/branding/BlueStamp Engineering Logo Black.jpg)
   
 # Final Milestone
 Explain the final outcome of your project here. Describe what you've accomplished since your previous milestone, and what your biggest challenges and triumphs were. Include key topics that you learned about and what you hope to learn about in the future after completing your BSE project. **Don't forget to replace the text below with the embed text for your milestone video by going on Youtube, clicking Share -> Embed, and copying and pasting that code to replace what's below.**
