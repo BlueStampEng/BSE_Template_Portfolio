@@ -23,14 +23,27 @@ For your first milestone, describe what your project is and how you plan to buil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
-Here's where you'll put images of your schematics.
+Here's where you'll put images of your schematics. [Tinkercad]([url](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)) and [Fritzing]([url](https://fritzing.org/learning/)) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
 # Code
-Here's where you'll put your code.
+Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your language needs. 
+
+```c++
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  Serial.println("Hello World!");
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =.  Click Preview (next to Edit on the top of this editor) to check that your links are working properly, and commit your changes and refresh your Github page to enusre it is rendering properly.
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =.  Click Preview (next to Edit on the top of this editor) to check that your links are working properly, and commit your changes and refresh your Github page to enusre it is rendering properly. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your language needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
