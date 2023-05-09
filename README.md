@@ -1,3 +1,1 @@
-This repository holds documentation for BlueStamp Engineering projects.
-
-Current BlueStamp Branding assets can be found [here](./branding).
+This repository is a template for documenting BlueStamp Engineering templates. Users should replace this with a description of what their project is and what their repository holds. 
