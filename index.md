@@ -1,9 +1,9 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Robotic Arm 60-degrees Of Freedom
+The project working/worked on was a robotic arm with claw moved by  4 servos which could all be controlled through 4 potentiometers. By getting the robot to operate correctly I started to see some problems I could fix through future modifications such as the design of the claw, and the ability to control the arm with more ease from distance. This portfolio will explore the development of my robotic arm as I start adding modification and recording milestones. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Rintaro S | Emerson High School | Biomedical Engineering | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
