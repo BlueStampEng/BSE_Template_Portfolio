@@ -2,18 +2,18 @@
   The ball tracking robot is a robot designed to track a ball through a camera, and follow it using ultrasonic sensors. One of the biggest challenge was getting the ball to be detected through the raspberry pi camera, as it took me a while to figure out how opencv really works. I also had some problems with videoCapture() and videoStream(), so I decided to use PiCamera instead of opencv to do the frame part of the robot. 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
 
-<!--You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+--You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 This is an HTML comment in Markdown 
 Anything between these symbols will not render on the published site 
-'''
--->
+```
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
 
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
 ![Headstone Image](logo.svg)
   
@@ -22,7 +22,9 @@ Anything between these symbols will not render on the published site
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+  For my final milestone, I was able to get the robot to efficiently track the ball, and follow it if it goes too far aweay. Since milestone 2, I was able to track the ball using openCV and PiCamera, while also being able to turn the robot based on the feedback given from the video stream. Finally, I also made it so the robot would move forward if the distance between the robot and the ball was greater than x amount, and stop if the distance was less than x amount. I still wasn't able to get the battery pack to connect to the raspberry pi without disconnecting all the time, so I just decided to use a rechargeable power bank that was given to me. So far in BSE, my biggest challenges were getting openCV to track the ball, while also making sure it would track a single ball, and not get distracted by everything else in the camera feed. Still, it was definitely rewarding when I solved both of those issues.
+  
+  The first key topic I learned in BSE was Raspberry Pi. This was the first time I used something like Raspberry Pi, so it was a completely different experience than what I imageined. The second key topic I learned was how a breadboard works, as this was the first time I had played with a breadboard before. Even though it took a lot of google searching, I was able to understand how it worked, and use it moving forward. The third key topic I learned was openCV and GPIO syntax, including all the different functions included with the opencv package. This includes things like GPIO.setup(), cv2.cvtColor(), cv2.videoCapture(), etc. Finally, I learned the math behind using ultrasonic sensors, and how to find the distance only by using ultrasonic waves. In the future, I hope to get much more in-depth into the specific parts of Raspberry Pi, while also learning new things and trying more complex projects. It would also be nice to learn soldering too.
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
