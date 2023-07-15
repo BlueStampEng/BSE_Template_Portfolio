@@ -357,7 +357,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Drive Train | Chassis, wheels, battery, motors - the battery pack that comes along with it has a low voltage when connected to the raspberry pi, so it would be better to connect the backup battery to the raspberry pi instead of the battery pack| $13.59 | <a href="https://www.amazon.com/Smart-Chassis-Motors-Encoder-Battery/dp/B01LXY7CM3/ref=sr_1_5?crid=373Y5YK6JWMD&keywords=robot+chassis&qid=1687740144&sprefix=robot+chassi%2Caps%2C93&sr=8-5"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi |  | $139.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_2_sspa?crid=S71E3O7XIUUH&keywords=raspberry%2Bpi%2B4&qid=1689364765&sprefix=raspberry%2Bpi%2B4%2Caps%2C184&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)"> Link </a> |
+| Raspberry Pi |  | $139.99 | <a href="https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_2_sspa?crid=S71E3O7XIUUH&keywords=raspberry%2Bpi%2B4&qid=1689364765&sprefix=raspberry%2Bpi%2B4%2Caps%2C184&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Screwdriver Kit | The screwdrivers in the kit are extremely tiny, so make sure to keep them somewhere safe | $7.98 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
 |:--:|:--:|:--:|:--:|
