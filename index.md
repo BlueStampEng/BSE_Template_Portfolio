@@ -366,7 +366,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | H Bridges | only using one of them | $8.99 | <a href="https://www.amazon.com/ACEIRMC-Stepper-Controller-2-5-12V-H-Bridge/dp/B0923VMKSZ/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberr Pi Camera | **IMPORTANT**: It's an Arducam, not a picam... I made the mistake of thinking it was a picam, when in reality it was an arducam (it makes a big difference) | $9.99 | <a href="https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/"> Link </a> |
+| Raspberry Pi Camera | **IMPORTANT**: It's an Arducam, not a picam... I made the mistake of thinking it was a picam, when in reality it was an arducam (it makes a big difference) | $9.99 | <a href="https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/"> Link </a> |
 <!-- |:--:|:--:|:--:|:--:|
 | Jumper Wires | Connecting everything together | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
 |:--:|:--:|:--:|:--:|
