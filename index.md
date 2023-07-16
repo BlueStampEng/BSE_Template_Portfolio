@@ -367,7 +367,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | H Bridges | only using one of them | $8.99 | <a href="https://www.amazon.com/ACEIRMC-Stepper-Controller-2-5-12V-H-Bridge/dp/B0923VMKSZ/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi Camera | **IMPORTANT**: It's an Arducam, not a picam... I made the mistake of thinking it was a picam, when in reality it was an arducam (it makes a big difference) | $9.99 | <a href="https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/"> Link </a> |
-<!-- |:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 | Jumper Wires | Connecting everything together | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Keyboard and Mouse | To connect to Raspberry Pi (didn't use though) | $23.99 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"> Link </a> |
@@ -384,6 +384,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Solderless Breadboard | My kit for some reason didn't come with the breadboard (it was shipped later), but supposedly it does come with the kit | $7.49 | <a href="https://www.amazon.com/HiLetgo-Solderless-Breadboard-Circuit-Prototyping/dp/B00LSG5BJK/ref=sr_1_2_sspa?crid=3NX5AETVJX973&keywords=solderless+breadboard&qid=1689400304&sprefix=solderless+breadboa%2Caps%2C165&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| PCB Jumper Wire Kit | this one was shipped with the breadboard, so it didn't come with the package (although it was useful) | $9.99 | <a href="https://www.amazon.com/Sunxeke-Breadboard-Assortment-Different-breadboard/dp/B09NCYJV64/ref=sr_1_1?crid=CUQPQZT53UI5&keywords=sunxeke&qid=1689400502&sprefix=sunxek%2Caps%2C161&sr=8-1&th=1"> Link </a> | -->
+| PCB Jumper Wire Kit | this one was shipped with the breadboard, so it didn't come with the package (although it was useful) | $9.99 | <a href="https://www.amazon.com/Sunxeke-Breadboard-Assortment-Different-breadboard/dp/B09NCYJV64/ref=sr_1_1?crid=CUQPQZT53UI5&keywords=sunxeke&qid=1689400502&sprefix=sunxek%2Caps%2C161&sr=8-1&th=1"> Link </a> | 
 
 
