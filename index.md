@@ -367,9 +367,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | H Bridges | only using one of them | $8.99 | <a href="https://www.amazon.com/ACEIRMC-Stepper-Controller-2-5-12V-H-Bridge/dp/B0923VMKSZ/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Raspberr Pi Camera | **IMPORTANT**: It's an Arducam, not a picam... I made the mistake of thinking it was a picam, when in reality it was an arducam (it makes a big difference) | $9.99 | <a href="https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/"> Link </a> |
-|:--:|:--:|:--:|:--:|
+<!-- |:--:|:--:|:--:|:--:|
 | Jumper Wires | Connecting everything together | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
-<!--|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 | Keyboard and Mouse | To connect to Raspberry Pi (didn't use though) | $23.99 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Wire Strippers | Cuts wires | $6.98 | <a href="https://www.amazon.com/Eclipse-CP-301G-ProsKit-Precision-Stripper/dp/B005JVJDIA/ref=sr_1_5?crid=3EA8H92LI1T8Z&keywords=30+awg+stripper&qid=1687440357&sprefix=30awg+stripper%2Caps%2C160&sr=8-5"> Link </a> |
@@ -384,11 +384,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Solderless Breadboard | My kit for some reason didn't come with the breadboard (it was shipped later), but supposedly it does come with the kit | $7.49 | <a href="https://www.amazon.com/HiLetgo-Solderless-Breadboard-Circuit-Prototyping/dp/B00LSG5BJK/ref=sr_1_2_sspa?crid=3NX5AETVJX973&keywords=solderless+breadboard&qid=1689400304&sprefix=solderless+breadboa%2Caps%2C165&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| PCB Jumper Wire Kit | this one was shipped with the breadboard, so it didn't come with the package (although it was useful) | $9.99 | <a href="https://www.amazon.com/Sunxeke-Breadboard-Assortment-Different-breadboard/dp/B09NCYJV64/ref=sr_1_1?crid=CUQPQZT53UI5&keywords=sunxeke&qid=1689400502&sprefix=sunxek%2Caps%2C161&sr=8-1&th=1"> Link </a> |-->
-<!--# Other Resources/Examples
+| PCB Jumper Wire Kit | this one was shipped with the breadboard, so it didn't come with the package (although it was useful) | $9.99 | <a href="https://www.amazon.com/Sunxeke-Breadboard-Assortment-Different-breadboard/dp/B09NCYJV64/ref=sr_1_1?crid=CUQPQZT53UI5&keywords=sunxeke&qid=1689400502&sprefix=sunxek%2Caps%2C161&sr=8-1&th=1"> Link </a> | -->
+<!-- # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)--> 
+- [Example 3](https://arneshkumar.github.io/arneshbluestamp/) --> 
 
-<!--To watch the BSE tutorial on how to create a portfolio, click here.
+<!-- To watch the BSE tutorial on how to create a portfolio, click here.
