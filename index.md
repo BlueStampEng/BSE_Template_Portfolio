@@ -37,7 +37,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://drive.google.com/file/d/1FHeR2722jbnjcbBpkM70xcDr6UyFP4LK/view?usp=drive_link" title="Google drive video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1FHeR2722jbnjcbBpkM70xcDr6UyFP4LK/preview" width="640" height="480" allowfullscreen></iframe>
   For my second milestone, I worked on connecting the ultrasonic sensors, while trying to figure out ways to attach it to the breadboard. I wasn't able to see how I could attach the 2 other ultrasonic sensors shown on the schematic for the project, so I just attached one of them for now. One major challenge that I faced was that my connection from the battery to the VCC and Ground ports in the Raspberry Pi were pretty weak, as it would disconnect and reconnect easily, making it hard to control wirelessly. Hopefully I can fix this problem by Milestone 3, so the bot can be able to run wirelessly with the battery pack. For my final milestone, I need to be able to attach the camera and ultrasonic sensors to a stable position, and be able to code 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -49,7 +49,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://drive.google.com/file/d/1APytoz-fD7MTpzEGWHl1Sh_uEZ4zLqNN/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1APytoz-fD7MTpzEGWHl1Sh_uEZ4zLqNN/preview" width="640" height="480" allowfullscreen></iframe>
   My project, the bal tracking robot, is designed to track a ball using ultrasonic sensors (distance sensors), and a built in Raspberry Pi Camera. So far, I've connected the chassis with the motors and wheels, and the battery pack installed. The Raspberry Pi's software is correctly installed, and it connects well with my moniter. I also have the breadboard attached, with all the wires connecting everything together. One major challenege I faced was the limitted amount of space, as I had to switch around the components so everything could fit. So far, the layout seems to fit everything that I need, with the exception of the PiCamera. To complete the project, my plan is to figure out how the ultrasonic sensors work, and also learn how to track the ball using openCV.  
 
 
