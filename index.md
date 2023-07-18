@@ -2,12 +2,12 @@
   The ball tracking robot is a robot designed to track a ball through a camera, and follow it using ultrasonic sensors. One of the biggest challenge was getting the ball to be detected through the raspberry pi camera, as it took me a while to figure out how opencv really works. I also had some problems with videoCapture() and videoStream(), so I decided to use PiCamera instead of opencv to do the frame part of the robot. 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
 
---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+<!--You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 This is an HTML comment in Markdown 
 Anything between these symbols will not render on the published site 
 ```
-
+-->
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Omeed K. | Saratoga High | Computer Engineering? | Incoming Sophmore
@@ -19,8 +19,6 @@ Anything between these symbols will not render on the published site
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   For my final milestone, I was able to get the robot to efficiently track the ball, and follow it if it goes too far aweay. Since milestone 2, I was able to track the ball using openCV and PiCamera, while also being able to turn the robot based on the feedback given from the video stream. Finally, I also made it so the robot would move forward if the distance between the robot and the ball was greater than x amount, and stop if the distance was less than x amount. I still wasn't able to get the battery pack to connect to the raspberry pi without disconnecting all the time, so I just decided to use a rechargeable power bank that was given to me. So far in BSE, my biggest challenges were getting openCV to track the ball, while also making sure it would track a single ball, and not get distracted by everything else in the camera feed. Still, it was definitely rewarding when I solved both of those issues.
   
@@ -29,25 +27,21 @@ Anything between these symbols will not render on the published site
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe src="https://drive.google.com/file/d/1FHeR2722jbnjcbBpkM70xcDr6UyFP4LK/preview" width="560" height="315" allowfullscreen align="center"></iframe>
   For my second milestone, I worked on connecting the ultrasonic sensors, while trying to figure out ways to attach it to the breadboard. I wasn't able to see how I could attach the 2 other ultrasonic sensors shown on the schematic for the project, so I just attached one of them for now. One major challenge that I faced was that my connection from the battery to the VCC and Ground ports in the Raspberry Pi were pretty weak, as it would disconnect and reconnect easily, making it hard to control wirelessly. Hopefully I can fix this problem by Milestone 3, so the bot can be able to run wirelessly with the battery pack. For my final milestone, I need to be able to attach the camera and ultrasonic sensors to a stable position, and be able to code opencv to track the ball correctly.
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe src="https://drive.google.com/file/d/1APytoz-fD7MTpzEGWHl1Sh_uEZ4zLqNN/preview" width="560" height="315" allowfullscreen></iframe>
   My project, the bal tracking robot, is designed to track a ball using ultrasonic sensors (distance sensors), and a built in Raspberry Pi Camera. So far, I've connected the chassis with the motors and wheels, and the battery pack installed. The Raspberry Pi's software is correctly installed, and it connects well with my moniter. I also have the breadboard attached, with all the wires connecting everything together. One major challenege I faced was the limitted amount of space, as I had to switch around the components so everything could fit. So far, the layout seems to fit everything that I need, with the exception of the PiCamera. To complete the project, my plan is to figure out how the ultrasonic sensors work, and also learn how to track the ball using openCV.  
 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 ![Headstone Image](Drawing.png)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+<!--Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```py
 # import the necessary packages
