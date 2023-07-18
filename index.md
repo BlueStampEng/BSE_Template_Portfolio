@@ -18,21 +18,24 @@ Anything between these symbols will not render on the published site
 ![Headstone Image](IMG_0176.jpeg)
   
 # Final Milestone
-
+<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
   For my final milestone, I was able to get the robot to efficiently track the ball, and follow it if it goes too far aweay. Since milestone 2, I was able to track the ball using openCV and PiCamera, while also being able to turn the robot based on the feedback given from the video stream. Finally, I also made it so the robot would move forward if the distance between the robot and the ball was greater than x amount, and stop if the distance was less than x amount. I still wasn't able to get the battery pack to connect to the raspberry pi without disconnecting all the time, so I just decided to use a rechargeable power bank that was given to me. So far in BSE, my biggest challenges were getting openCV to track the ball, while also making sure it would track a single ball, and not get distracted by everything else in the camera feed. Still, it was definitely rewarding when I solved both of those issues.
   
   The first key topic I learned in BSE was Raspberry Pi. This was the first time I used something like Raspberry Pi, so it was a completely different experience than what I imageined. The second key topic I learned was how a breadboard works, as this was the first time I had played with a breadboard before. Even though it took a lot of google searching, I was able to understand how it worked, and use it moving forward. The third key topic I learned was openCV and GPIO syntax, including all the different functions included with the opencv package. This includes things like GPIO.setup(), cv2.cvtColor(), cv2.videoCapture(), etc. Finally, I learned the math behind using ultrasonic sensors, and how to find the distance only by using ultrasonic waves. In the future, I hope to get much more in-depth into the specific parts of Raspberry Pi, while also learning new things and trying more complex projects. 
 
 
 # Second Milestone
-
+<div align="center">
 <iframe src="https://drive.google.com/file/d/1FHeR2722jbnjcbBpkM70xcDr6UyFP4LK/preview" width="560" height="315" allowfullscreen align="center"></iframe>
+</div>
   For my second milestone, I worked on connecting the ultrasonic sensors, while trying to figure out ways to attach it to the breadboard. I wasn't able to see how I could attach the 2 other ultrasonic sensors shown on the schematic for the project, so I just attached one of them for now. One major challenge that I faced was that my connection from the battery to the VCC and Ground ports in the Raspberry Pi were pretty weak, as it would disconnect and reconnect easily, making it hard to control wirelessly. Hopefully I can fix this problem by Milestone 3, so the bot can be able to run wirelessly with the battery pack. For my final milestone, I need to be able to attach the camera and ultrasonic sensors to a stable position, and be able to code opencv to track the ball correctly.
 
 # First Milestone
-
+<div align="center">
 <iframe src="https://drive.google.com/file/d/1APytoz-fD7MTpzEGWHl1Sh_uEZ4zLqNN/preview" width="560" height="315" allowfullscreen></iframe>
+</div>
   My project, the bal tracking robot, is designed to track a ball using ultrasonic sensors (distance sensors), and a built in Raspberry Pi Camera. So far, I've connected the chassis with the motors and wheels, and the battery pack installed. The Raspberry Pi's software is correctly installed, and it connects well with my moniter. I also have the breadboard attached, with all the wires connecting everything together. One major challenege I faced was the limitted amount of space, as I had to switch around the components so everything could fit. So far, the layout seems to fit everything that I need, with the exception of the PiCamera. To complete the project, my plan is to figure out how the ultrasonic sensors work, and also learn how to track the ball using openCV.  
 
 
