@@ -10,7 +10,7 @@ Anything between these symbols will not render on the published site
 -->
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Omeed K. | Saratoga High | Computer Engineering? | Incoming Sophmore
+| Omeed K. | Saratoga High | Computer Engineering? | Incoming Sophmore |
 
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
