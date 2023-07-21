@@ -356,35 +356,35 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Drive Train | Chassis, wheels, battery, motors - the battery pack that comes along with it has a low voltage when connected to the raspberry pi, so it would be better to connect the backup battery to the raspberry pi instead of the battery pack| $13.59 | <a href="https://www.amazon.com/Smart-Chassis-Motors-Encoder-Battery/dp/B01LXY7CM3/ref=sr_1_5?crid=373Y5YK6JWMD&keywords=robot+chassis&qid=1687740144&sprefix=robot+chassi%2Caps%2C93&sr=8-5"> Link </a> |
+| Drive Train | Chassis, wheels, battery, motors - the battery pack that comes along with it has a low voltage when connected to the raspberry pi, so it would be better to connect the backup battery to the raspberry pi instead of the battery pack| $13.59 | <a href="https://www.amazon.com/Smart-Chassis-Motors-Encoder-Battery/dp/B01LXY7CM3/ref=sr_1_5?crid=373Y5YK6JWMD&keywords=robot+chassis&qid=1687740144&sprefix=robot+chassi%2Caps%2C93&sr=8-5"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi |  | $139.99 | <a href="https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_2_sspa?crid=S71E3O7XIUUH&keywords=raspberry%2Bpi%2B4&qid=1689364765&sprefix=raspberry%2Bpi%2B4%2Caps%2C184&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
+| Raspberry Pi |  | $139.99 | <a href="https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_2_sspa?crid=S71E3O7XIUUH&keywords=raspberry%2Bpi%2B4&qid=1689364765&sprefix=raspberry%2Bpi%2B4%2Caps%2C184&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Raspberry Pi Website </a> |
 |:--:|:--:|:--:|:--:|
-| Screwdriver Kit | The screwdrivers in the kit are extremely tiny, so make sure to keep them somewhere safe | $7.98 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
+| Screwdriver Kit | The screwdrivers in the kit are extremely tiny, so make sure to keep them somewhere safe | $7.98 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Ultrasonic Sensor | A.K.A. Distance Sensor | $8.99 | <a href="https://www.amazon.com/ELEGOO-HC-SR04-Ultrasonic-Distance-MEGA2560/dp/B01COSN7O6/"> Link </a> |
+| Ultrasonic Sensor | A.K.A. Distance Sensor | $8.99 | <a href="https://www.amazon.com/ELEGOO-HC-SR04-Ultrasonic-Distance-MEGA2560/dp/B01COSN7O6/"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| H Bridges | only using one of them | $8.99 | <a href="https://www.amazon.com/ACEIRMC-Stepper-Controller-2-5-12V-H-Bridge/dp/B0923VMKSZ/"> Link </a> |
+| H Bridges | only using one of them | $8.99 | <a href="https://www.amazon.com/ACEIRMC-Stepper-Controller-2-5-12V-H-Bridge/dp/B0923VMKSZ/"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi Camera | **IMPORTANT**: It's an Arducam, not a picam... I made the mistake of thinking it was a picam, when in reality it was an arducam (it makes a big difference) | $9.99 | <a href="https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/"> Link </a> |
+| Raspberry Pi Camera | **IMPORTANT**: It's an Arducam, not a picam... I made the mistake of thinking it was a picam, when in reality it was an arducam (it makes a big difference) | $9.99 | <a href="https://www.amazon.com/Arducam-Megapixels-Sensor-OV5647-Raspberry/dp/B012V1HEP4/"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Jumper Wires | Connecting everything together | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
+| Jumper Wires | Connecting everything together | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Keyboard and Mouse | To connect to Raspberry Pi (didn't use though) | $23.99 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"> Link </a> |
+| Keyboard and Mouse | To connect to Raspberry Pi (didn't use though) | $23.99 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Wire Strippers | Cuts wires | $6.98 | <a href="https://www.amazon.com/Eclipse-CP-301G-ProsKit-Precision-Stripper/dp/B005JVJDIA/ref=sr_1_5?crid=3EA8H92LI1T8Z&keywords=30+awg+stripper&qid=1687440357&sprefix=30awg+stripper%2Caps%2C160&sr=8-5"> Link </a> |
+| Wire Strippers | Cuts wires | $6.98 | <a href="https://www.amazon.com/Eclipse-CP-301G-ProsKit-Precision-Stripper/dp/B005JVJDIA/ref=sr_1_5?crid=3EA8H92LI1T8Z&keywords=30+awg+stripper&qid=1687440357&sprefix=30awg+stripper%2Caps%2C160&sr=8-5"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Soldering Kit | Solders stuff | $17.99 | <a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=sxts_b2b_sx_reorder_acb_business?content-id=amzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce%3Aamzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&crid=3M9M2FJSFSN8U&cv_ct_cx=soldering+kit&keywords=soldering+kit&pd_rd_i=B07S61WT16&pd_rd_r=81dfb3be-2f9f-471b-9612-c467f88a93a0&pd_rd_w=6Cvia&pd_rd_wg=6kA87&pf_rd_p=44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&pf_rd_r=7FY6MS4DKN5ENRJ6J8WD&qid=1685477027&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=soldering+ki%2Caps%2C163&sr=1-1-62d64017-76a9-4f2a-8002-d7ec97456eea"> Link </a> |
+| Soldering Kit | Solders stuff | $17.99 | <a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=sxts_b2b_sx_reorder_acb_business?content-id=amzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce%3Aamzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&crid=3M9M2FJSFSN8U&cv_ct_cx=soldering+kit&keywords=soldering+kit&pd_rd_i=B07S61WT16&pd_rd_r=81dfb3be-2f9f-471b-9612-c467f88a93a0&pd_rd_w=6Cvia&pd_rd_wg=6kA87&pf_rd_p=44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&pf_rd_r=7FY6MS4DKN5ENRJ6J8WD&qid=1685477027&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=soldering+ki%2Caps%2C163&sr=1-1-62d64017-76a9-4f2a-8002-d7ec97456eea"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Digital Multimeter | Measures voltage | $9.98 | <a href="https://www.amazon.com/Etekcity-Multimeter-MSR-R500-Electronic-Multimeters/dp/B01N9QW620/ref=sxts_b2b_sx_reorder_acb_business?content-id=amzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce%3Aamzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&crid=1741POGJIFZMN&cv_ct_cx=multimeter&keywords=multimeter&pd_rd_i=B01N9QW620&pd_rd_r=831d94e3-2e6d-428c-aeed-e326df3b43f6&pd_rd_w=WPcva&pd_rd_wg=EsDRz&pf_rd_p=44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&pf_rd_r=XZMYRCR5X4ZWN2YPYV9E&qid=1687376939&sprefix=multimeter%2Caps%2C88&sr=1-1-62d64017-76a9-4f2a-8002-d7ec97456eea"> Link </a> |
+| Digital Multimeter | Measures voltage | $9.98 | <a href="https://www.amazon.com/Etekcity-Multimeter-MSR-R500-Electronic-Multimeters/dp/B01N9QW620/ref=sxts_b2b_sx_reorder_acb_business?content-id=amzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce%3Aamzn1.sym.44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&crid=1741POGJIFZMN&cv_ct_cx=multimeter&keywords=multimeter&pd_rd_i=B01N9QW620&pd_rd_r=831d94e3-2e6d-428c-aeed-e326df3b43f6&pd_rd_w=WPcva&pd_rd_wg=EsDRz&pf_rd_p=44ecadb3-1930-4ae5-8e7f-c0670e7d86ce&pf_rd_r=XZMYRCR5X4ZWN2YPYV9E&qid=1687376939&sprefix=multimeter%2Caps%2C88&sr=1-1-62d64017-76a9-4f2a-8002-d7ec97456eea"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Safety Glasses | Wear them while soldering | $6.12 | <a href="https://www.amazon.com/MCR-Safety-CL010-Checklite-Glasses/dp/B009SRXSUA/ref=sr_1_12?keywords=safety+glasses&qid=1687376864&sprefix=safety+gla%2Caps%2C91&sr=8-12"> Link </a> |
+| Safety Glasses | Wear them while soldering | $6.12 | <a href="https://www.amazon.com/MCR-Safety-CL010-Checklite-Glasses/dp/B009SRXSUA/ref=sr_1_12?keywords=safety+glasses&qid=1687376864&sprefix=safety+gla%2Caps%2C91&sr=8-12"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Backup Battery | Extra battery if other one is broken | $16.99 | <a href="https://www.amazon.com/EnergyQC-Portable-Ultra-Compact-Compatible-More-Black/dp/B09Z6T7FQ8/ref=sr_1_31?crid=KNHGHKNN3CWT&keywords=backup+battery+usb&qid=1687378917&sprefix=backup+battery+usb%2Caps%2C86&sr=8-31"> Link </a> |
+| Backup Battery | Extra battery if other one is broken | $16.99 | <a href="https://www.amazon.com/EnergyQC-Portable-Ultra-Compact-Compatible-More-Black/dp/B09Z6T7FQ8/ref=sr_1_31?crid=KNHGHKNN3CWT&keywords=backup+battery+usb&qid=1687378917&sprefix=backup+battery+usb%2Caps%2C86&sr=8-31"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| Solderless Breadboard | My kit for some reason didn't come with the breadboard (it was shipped later), but supposedly it does come with the kit | $7.49 | <a href="https://www.amazon.com/HiLetgo-Solderless-Breadboard-Circuit-Prototyping/dp/B00LSG5BJK/ref=sr_1_2_sspa?crid=3NX5AETVJX973&keywords=solderless+breadboard&qid=1689400304&sprefix=solderless+breadboa%2Caps%2C165&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+| Solderless Breadboard | My kit for some reason didn't come with the breadboard (it was shipped later), but supposedly it does come with the kit | $7.49 | <a href="https://www.amazon.com/HiLetgo-Solderless-Breadboard-Circuit-Prototyping/dp/B00LSG5BJK/ref=sr_1_2_sspa?crid=3NX5AETVJX973&keywords=solderless+breadboard&qid=1689400304&sprefix=solderless+breadboa%2Caps%2C165&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Amazon </a> |
 |:--:|:--:|:--:|:--:|
-| PCB Jumper Wire Kit | this one was shipped with the breadboard, so it didn't come with the package (although it was useful) | $9.99 | <a href="https://www.amazon.com/Sunxeke-Breadboard-Assortment-Different-breadboard/dp/B09NCYJV64/ref=sr_1_1?crid=CUQPQZT53UI5&keywords=sunxeke&qid=1689400502&sprefix=sunxek%2Caps%2C161&sr=8-1&th=1"> Link </a> | 
+| PCB Jumper Wire Kit | this one was shipped with the breadboard, so it didn't come with the package (although it was useful) | $9.99 | <a href="https://www.amazon.com/Sunxeke-Breadboard-Assortment-Different-breadboard/dp/B09NCYJV64/ref=sr_1_1?crid=CUQPQZT53UI5&keywords=sunxeke&qid=1689400502&sprefix=sunxek%2Caps%2C161&sr=8-1&th=1"> Amazon </a> | 
 
 
 
