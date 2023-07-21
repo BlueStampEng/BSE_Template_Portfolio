@@ -348,6 +348,7 @@ GPIO.cleanup() #free all the GPIO pins
 
 
 ```
+credit to [this website]([url]([here]([url](https://www.markdownguide.org/extended-syntax/)))) for half of the code
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
