@@ -20,7 +20,7 @@ Anything between these symbols will not render on the published site
   
 # Final Milestone
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1VVX29z-DfwOuKb_F9tzH81kp-eh6zjnS/preview" width="560" height="315" allow="autoplay"></iframe>
 </div>
   For my final milestone, I was able to get the robot to efficiently track the ball, and follow it if it goes too far aweay. Since milestone 2, I was able to track the ball using openCV and PiCamera, while also being able to turn the robot based on the feedback given from the video stream. Finally, I also made it so the robot would move forward if the distance between the robot and the ball was greater than x amount, and stop if the distance was less than x amount. I still wasn't able to get the battery pack to connect to the raspberry pi without disconnecting all the time, so I just decided to use a rechargeable power bank that was given to me. So far in BSE, my biggest challenges were getting openCV to track the ball, while also making sure it would track a single ball, and not get distracted by everything else in the camera feed. Still, it was definitely rewarding when I solved both of those issues.
   
@@ -60,14 +60,14 @@ import numpy as np
 #hardware work
 GPIO.setmode(GPIO.BOARD)
 
-GPIO_TRIGGER1 = 37      #Left ultrasonic sensor
-GPIO_ECHO1 = 36
+GPIO_TRIGGER1 = 31      #Left ultrasonic sensor
+GPIO_ECHO1 = 32
 
 GPIO_TRIGGER2 = 11      #Front ultrasonic sensor
 GPIO_ECHO2 = 12
 
-GPIO_TRIGGER3 = 31      #Right ultrasonic sensor
-GPIO_ECHO3 = 32
+GPIO_TRIGGER3 = 37      #Right ultrasonic sensor
+GPIO_ECHO3 = 36
 
 MOTOR1B=13  #Left Motor
 MOTOR1E=15
@@ -126,7 +126,7 @@ def sonar(GPIO_TRIGGER,GPIO_ECHO):
       # That was the distance there and back so halve the value
       distance = distance / 2
      
-      #print "Distance : %.1f" % distance
+      #print ("Distance : %.1f" % distance)
       # Reset GPIO settings
       return distance
 
@@ -168,6 +168,21 @@ def stop():
      
 #Image analysis work
 def segment_colour(frame):    #returns only the red colors in the frame
+    
+    hsv_roi =  cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    mask_1 = cv2.inRange(hsv_roi, np.array([54,71,43]), np.array([81,255,149]))
+    ycr_roi=cv2.cvtColor(frame,cv2.COLOR_BGR2YCrCb)
+    #mask_2=cv2.inRange(ycr_roi, np.array((0.,165.,0.)), np.array((255.,255.,255.)))
+
+    mask = mask_1 #| mask_2
+    kern_dilate = np.ones((8,8),np.uint8)
+    kern_erode  = np.ones((3,3),np.uint8)
+    mask= cv2.erode(mask,kern_erode)      #Eroding
+    mask=cv2.dilate(mask,kern_dilate)     #Dilating
+    #cv2.imshow('mask',mask)
+    return mask
+def segment_colour_goal(frame):    #returns only the red colors in the frame
+    
     hsv_roi =  cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     mask_1 = cv2.inRange(hsv_roi, np.array([160, 160,10]), np.array([190,255,255]))
     ycr_roi=cv2.cvtColor(frame,cv2.COLOR_BGR2YCrCb)
@@ -209,9 +224,10 @@ def target_hist(frame):
 #CAMERA CAPTURE
 #initialize the camera and grab a reference to the raw camera capture
 camera = PiCamera()
-camera.resolution = (160, 128)
+camera.resolution = (640, 480)
 camera.framerate = 16
-rawCapture = PiRGBArray(camera, size=(160, 128))
+rawCapture = PiRGBArray(camera, size=(640, 480))
+trackGoal = False
  
 # allow the camera to warmup
 time.sleep(0.001)
@@ -228,10 +244,16 @@ for image in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
       centre_x=0.
       centre_y=0.
       hsv1 = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-      mask_red=segment_colour(frame)      #masking red the frame
-      loct,area=find_blob(mask_red)
+      if (trackGoal==False):
+            mask_green=segment_colour(frame)
+            loct,area=find_blob(mask_green)
+      else:
+            mask_red = segment_colour_goal(frame)
+            loct,area=find_blob(mask_red)
+      #masking red/green the frame
+      
       x,y,w,h=loct
-     
+      print (area)
       #distance coming from front ultrasonic sensor
       distanceC = sonar(GPIO_TRIGGER2,GPIO_ECHO2)
       #distance coming from right ultrasonic sensor
@@ -239,7 +261,7 @@ for image in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
       #distance coming from left ultrasonic sensor
       distanceL = sonar(GPIO_TRIGGER1,GPIO_ECHO1)
              
-      if (w*h) < 10:
+      if (w*h) < 20:
             found=0
       else:
             found=1
@@ -247,94 +269,84 @@ for image in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
             centre_x=x+((w)/2)
             centre_y=y+((h)/2)
             cv2.circle(frame,(int(centre_x),int(centre_y)),3,(0,110,255),-1)
-            centre_x-=80
-            centre_y=6--centre_y
-            print (centre_x,centre_y)
-      initial=300
+            centre_x-=390
+            centre_y-=280
+            #print (centre_x,centre_y)
+      initial=800
       flag=0
-      #GPIO.output(LED_PIN,GPIO.LOW)          
-      if(found==0):
-            #if the ball is not found and the last time it sees ball in which direction, it will start to rotate in that direction
-            if flag==0:
-                  rightturn()
-                  time.sleep(0.05)
-            else:
-                  leftturn()
-                  time.sleep(0.05)
-            stop()
-            time.sleep(0.0125)
-     
-      elif(found==1):
-            if(area<initial):
-                  if(distanceC<10):
-                        #if ball is too far but it detects something in front of it,then it avoid it and reaches the ball.
-                        if distanceR>=8:
-                              rightturn()
-                              time.sleep(0.00625)
-                              stop()
-                              time.sleep(0.0125)
-                              forward()
-                              time.sleep(0.00625)
-                              stop()
-                              time.sleep(0.0125)
-                              #while found==0:
-                              leftturn()
-                              time.sleep(0.00625)
-                        elif distanceL>=8:
-                              leftturn()
-                              time.sleep(0.00625)
-                              stop()
-                              time.sleep(0.0125)
-                              forward()
-                              time.sleep(0.00625)
-                              stop()
-                              time.sleep(0.0125)
-                              rightturn()
-                              time.sleep(0.00625)
-                              stop()
-                              time.sleep(0.0125)
-                        else:
-                              stop()
-                              time.sleep(0.01)
-                  else:
-                        #otherwise it move forward
-                        forward()
-                        time.sleep(0.00625)
-            elif(area>=initial):
-                  initial2=6700
-                  if(area<initial2):
-                        if(distanceC>10):
-                              #it brings coordinates of ball to center of camera's imaginary axis.
-                              if(centre_x<=-20 or centre_x>=20):
-                                    if(centre_x<0):
-                                          flag=0
-                                          rightturn()
-                                          time.sleep(0.025)
-                                    elif(centre_x>0):
-                                          flag=1
-                                          leftturn()
-                                          time.sleep(0.025)
-                              forward()
-                              time.sleep(0.00003125)
-                              stop()
-                              time.sleep(0.00625)
-                        else:
-                              stop()
-                              time.sleep(0.01)
-
-                  else:
-                        #if it founds the ball and it is too close it lights up the led.
-                        #GPIO.output(LED_PIN,GPIO.HIGH)
-                        time.sleep(0.1)
-                        stop()
-                        time.sleep(0.1)
-      #cv2.imshow("draw",frame)    
+      #GPIO.output(LED_PIN,GPIO.LOW)
+      
+      
+      
+      cv2.imshow("draw",frame)    
       rawCapture.truncate(0)  # clear the stream in preparation for the next frame
          
       if(cv2.waitKey(1) & 0xff == ord('q')):
             break
-
+      
+      if(found==0):
+            #if the ball is not found and the last time it sees ball in which direction, it will start to rotate in that direction
+            if flag==0:
+                  stop()
+                  rightturn()
+                  time.sleep(0.05)
+            else:
+                  stop()
+                  leftturn()
+                  time.sleep(0.05)
+            stop()
+            time.sleep(0.0125)
+      elif (found==1):
+            if (trackGoal==False):
+                  if (distanceC >= 8):
+                        if (centre_x<=-30 or centre_x>=30):
+                              stop()
+                              if (centre_x<0):
+                                    flag = 0
+                                    leftturn()
+                                    time.sleep(0.025)
+                                    stop()
+                                    continue
+                              elif (centre_x>0):
+                                    flag=1
+                                    rightturn()
+                                    time.sleep(0.025)
+                                    stop()
+                                    continue
+                        else:
+                              forward()
+                              time.sleep(0.1)
+                              stop()
+                  elif(distanceC<8):
+                        stop()
+                        trackGoal = True
+            elif (trackGoal==True):
+                  if (area < 130000):
+                        if (centre_x<=-20 or centre_x>=20):
+                              stop()
+                              if (centre_x<0):
+                                    flag = 0
+                                    leftturn()
+                                    time.sleep(0.025)
+                                    stop()
+                                    continue
+                              elif (centre_x>0):
+                                    flag=1
+                                    rightturn()
+                                    time.sleep(0.025)
+                                    stop()
+                                    continue
+                        else:
+                              forward()
+                              time.sleep(0.1)
+                              stop()
+                  elif (area >= 130000):
+                        stop()
+                        break
+                        
 GPIO.cleanup() #free all the GPIO pins
+
+
 ```
 
 # Bill of Materials
